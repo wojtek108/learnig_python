@@ -1,1 +1,111 @@
+import requests, bs4, ezsheets, datetime
 
+# cena Kangura 1 uncja srebra 2020
+res = requests.get('https://www.metalelokacyjne.pl/product-zha-3749-Australijski-Kangur-1-uncja-Srebra-2020.html')
+res.raise_for_status()
+soup = bs4.BeautifulSoup(res.text, features="lxml")
+KangurPrice = soup.select('#projector_price_value')
+print('Obecna cena Kangura to: ' + str(KangurPrice[0].getText()))
+
+# cena Pingwina Czubatego 1 uncja srebra 2020
+res = requests.get('https://www.metalelokacyjne.pl/product-zha-4093-Pingwin-Czubaty-1-uncja-Srebra-2020.html')
+res.raise_for_status()
+soup = bs4.BeautifulSoup(res.text, features="lxml")
+PingwinPrice = soup.select('#projector_price_value')
+print('Obecna cena Pingwina to: ' + str(PingwinPrice[0].getText()))
+
+# cena Kookaburra 1 uncja srebra 2020
+res = requests.get('https://www.metalelokacyjne.pl/product-zha-3737-Kookaburra-1-uncja-Srebra-2020.html')
+res.raise_for_status()
+soup = bs4.BeautifulSoup(res.text, features="lxml")
+KookaburraPrice = soup.select('#projector_price_value')
+print('Obecna cena Kookaburra to: ' + str(KookaburraPrice[0].getText()))
+
+# cena sztabki 1 uncja złota Rand Refinery
+res = requests.get('https://goldenmark.com/pl/zlota-sztabka-1-uncja-rand-refinery/')
+res.raise_for_status()
+soup = bs4.BeautifulSoup(res.text, features="lxml")
+GoldBarPrice = soup.select('.current-price')
+print('Obecna cena sztabki złota Rand Refinery to: '+ str(GoldBarPrice[0].getText().strip()))
+
+# zmienne do wpisania do arkusza
+Kangur = str(KangurPrice[0].getText())
+Pingwin = str(PingwinPrice[0].getText())
+Kookaburra = str(KookaburraPrice[0].getText())
+GoldBar = str(GoldBarPrice[0].getText().strip())
+
+# zmienne arkuszowe
+ss = ezsheets.Spreadsheet('1M7mbcgsWlFlzWKm9ioJ40YTS6dfTwG9m35EorDbDLNE')
+dt = datetime.datetime.now()
+today = str(str(dt.year) +'-'+str(dt.month) + '-' + str(dt.day))
+sh = ss.sheets[3] # testowy arkusz
+
+
+# date loop
+for n in range(1, 20):
+    cellNumber = str('B'+str(n))
+    cellValue = sh.get(cellNumber)
+    if cellValue == '':
+        sh.update(cellNumber, str(today))
+        break
+    else:
+        # print(cellNumber + ' is occupied')
+        WG = str('author')
+
+# gold bar 1 loop
+for n in range(1, 20):
+    cellNumber = str('C'+str(n))
+    cellValue = sh.get(cellNumber)
+    if cellValue == '':
+        sh.update(cellNumber, str(GoldBar))
+        break
+    else:
+        # print(cellNumber + ' is occupied')
+        WG = str('author')
+
+# gold bar 2 loop
+for n in range(1, 20):
+    cellNumber = str('D'+str(n))
+    cellValue = sh.get(cellNumber)
+    if cellValue == '':
+        sh.update(cellNumber, str(GoldBar))
+        break
+    else:
+        # print(cellNumber + ' is occupied')
+        WG = str('author')
+
+# Pingwin loop
+for n in range(1, 20):
+    cellNumber = str('E'+str(n))
+    cellValue = sh.get(cellNumber)
+    if cellValue == '':
+        sh.update(cellNumber, str(Pingwin))
+        break
+    else:
+        # print(cellNumber + ' is occupied')
+        WG = str('author')
+
+# Kookaburra loop
+for n in range(1, 20):
+    cellNumber = str('F'+str(n))
+    cellValue = sh.get(cellNumber)
+    if cellValue == '':
+        sh.update(cellNumber, str(Kookaburra))
+        break
+    else:
+        # print(cellNumber + ' is occupied')
+        WG = str('author')
+
+# Kangur loop
+for n in range(1, 20):
+    cellNumber = str('G'+str(n))
+    cellValue = sh.get(cellNumber)
+    if cellValue == '':
+        sh.update(cellNumber, str(Kangur))
+        break
+    else:
+        # print(cellNumber + ' is occupied')
+        WG = str('author')
+
+
+ss.refresh()
