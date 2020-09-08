@@ -1,0 +1,16 @@
+spam = ['apples', 'bananas', 'tofu', 'cats', 'dog1', 'dog2', 'dog3', 'dog4', 'dog5']
+
+def comma(spam2):
+	if not spam:
+		print('List is empty')
+	else:
+		spam2.insert(-1,'and')
+		for s in range(len(spam2)):
+			if s > 0:
+				spam2.insert(s * 2 - 1, ', ')
+		spam2.pop(-2)
+		spam2.insert(-1, ' ')
+		for s in range(len(spam2)):
+			print(spam2[s], end='')
+
+comma(spam)
