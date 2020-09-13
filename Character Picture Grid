@@ -1,0 +1,20 @@
+grid = [['.', '.', '.', '.', '.', '.'],
+        ['.', 'O', 'O', '.', '.', '.'],
+        ['O', 'O', 'O', 'O', '.', '.'],
+        ['O', 'O', 'O', 'O', 'O', '.'],
+        ['.', 'O', 'O', 'O', 'O', 'O'],
+        ['O', 'O', 'O', 'O', 'O', '.'],
+        ['O', 'O', 'O', 'O', '.', '.'],
+        ['.', 'O', 'O', '.', '.', '.'],
+        ['.', '.', '.', '.', '.', '.']]
+
+x = (len(grid)) # lenght of target figure
+y = (len(grid[0])) # width of target figure
+
+
+for ii in range(y):
+	for i in range(x):
+		print(grid[i][ii], end ='')	
+	print()
+
+	
