@@ -1,4 +1,4 @@
-# learnig_python
+# Learnig python
 just messing around and trying to learn a bit of Python3. Below are challenges from the book "Automate the boring stuff with Python" by Al Sweigart.
 
 <h3>The Collatz Sequence</h3>
