@@ -12,3 +12,6 @@ https://github.com/wojtek108/learnig_python/blob/master/comma%20code
 
 <h3>Coin flip streaks</h3>
 https://github.com/wojtek108/learnig_python/blob/master/coin%20flip%20steaks
+
+<h3>Character Picture Grid</h3>
+https://github.com/wojtek108/learnig_python/blob/master/Character%20Picture%20Grid
