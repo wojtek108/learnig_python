@@ -1,0 +1,18 @@
+import random
+streakNumber = 0
+
+for experimentNumber in range(100):
+	randomList = []
+	for rn in range(100):
+		randomNumber = random.randint(0,1)
+		randomList.append(randomNumber)
+
+	for l in range(len(randomList)-5):
+		sum = 0	
+		for i in range(6):
+			sum = sum + randomList[i + l]
+		if sum == 0 or sum == 6:
+			streakNumber = streakNumber + 1
+			break
+		
+print('Total number of streaks in 100 experiments = ' + str(streakNumber))
