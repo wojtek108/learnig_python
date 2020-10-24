@@ -17,4 +17,4 @@ https://github.com/wojtek108/learnig_python/blob/master/coin%20flip%20steaks
 https://github.com/wojtek108/learnig_python/blob/master/Character%20Picture%20Grid
 
 <h3>Chess Dictionary Validator</h3>
-https://github.com/wojtek108/learnig_python/blob/master/chess%20Dictionary%20Validator
+https://github.com/wojtek108/learnig_python/blob/master/Chess%20Dictionary%20Validator
