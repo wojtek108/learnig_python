@@ -18,3 +18,6 @@ https://github.com/wojtek108/learnig_python/blob/master/Character%20Picture%20Gr
 
 <h3>Chess Dictionary Validator</h3>
 https://github.com/wojtek108/learnig_python/blob/master/Chess%20Dictionary%20Validator
+
+<h3>Fantasy Game Inventory</h3>
+https://github.com/wojtek108/learnig_python/blob/master/Fantasy%20Game%20Inventory
