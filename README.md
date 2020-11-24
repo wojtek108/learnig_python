@@ -21,3 +21,6 @@ https://github.com/wojtek108/learnig_python/blob/master/Chess%20Dictionary%20Val
 
 <h3>Fantasy Game Inventory</h3>
 https://github.com/wojtek108/learnig_python/blob/master/Fantasy%20Game%20Inventory
+
+<h3>Table Printer</h3>
+https://github.com/wojtek108/learnig_python/blob/master/table%20printer
