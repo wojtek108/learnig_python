@@ -24,3 +24,7 @@ https://github.com/wojtek108/learnig_python/blob/master/Fantasy%20Game%20Invento
 
 <h3>Table Printer</h3>
 https://github.com/wojtek108/learnig_python/blob/master/table%20printer
+
+<h3>Strong Password Detection</h3>
+https://github.com/wojtek108/learnig_python/blob/master/Strong%20Password%20Detection
+https://github.com/wojtek108/learnig_python/blob/master/Strong%20Password%20Detection2
