@@ -28,3 +28,6 @@ https://github.com/wojtek108/learnig_python/blob/master/table%20printer
 <h3>Strong Password Detection</h3>
 https://github.com/wojtek108/learnig_python/blob/master/Strong%20Password%20Detection
 https://github.com/wojtek108/learnig_python/blob/master/Strong%20Password%20Detection2
+
+<h3>Date Detection</h3>
+https://github.com/wojtek108/learnig_python/blob/master/Date%20detection
