@@ -31,3 +31,6 @@ https://github.com/wojtek108/learnig_python/blob/master/Strong%20Password%20Dete
 
 <h3>Date Detection</h3>
 https://github.com/wojtek108/learnig_python/blob/master/Date%20detection
+
+<h3>Regex version of the strip method</h3>
+https://github.com/wojtek108/learnig_python/blob/master/regex%20version%20of%20the%20strip%20method
