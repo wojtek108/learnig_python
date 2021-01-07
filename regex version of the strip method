@@ -1,0 +1,26 @@
+def regex_strip_method(sstring, character):
+	import re
+	
+	stripMethodRegex = re.compile(r'(^\s+)?(\S+)(\s+$)?')
+	mo = stripMethodRegex.search(sstring)
+	newStrip = mo.group(2)
+	
+	print('String without whitespaces = ' + newStrip)
+	
+	cList = list(newStrip)
+	if character in cList:
+		print('ok. I found your character in the string!')
+	else:
+		print('Your character is not in the string!')
+	if character in cList:
+		cList = [x for x in cList if x != character]
+	
+	finalString = ''.join(cList)
+	print('Your final string is: ' + finalString)
+
+print('Give me a string with or without whitespaces at the beginning and at the end:')
+yourString = input()
+print('Give me a character to remove from the string:')
+yourCharacter = input()
+
+regex_strip_method(yourString, yourCharacter)
