@@ -34,3 +34,6 @@ https://github.com/wojtek108/learnig_python/blob/master/Date%20detection
 
 <h3>Regex version of the strip method</h3>
 https://github.com/wojtek108/learnig_python/blob/master/regex%20version%20of%20the%20strip%20method
+
+<h3>Sandwich maker</h3>
+https://github.com/wojtek108/learnig_python/blob/master/Sandwich%20Maker
