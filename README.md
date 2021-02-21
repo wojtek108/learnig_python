@@ -46,8 +46,6 @@ https://github.com/wojtek108/learnig_python/blob/master/regex%20search.py
 
 <h3>Selective Copy</h3>
 https://github.com/wojtek108/learnig_python/blob/master/selectiv_copy.py
-
-<h3>Selective Copy 2</h3>
 https://github.com/wojtek108/learnig_python/blob/master/selective_copy_2.py
 
 <h3>Deleting Unneeded Files</h3>
