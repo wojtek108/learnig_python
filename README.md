@@ -43,3 +43,14 @@ https://github.com/wojtek108/learnig_python/blob/master/mad%20libs.py
 
 <h3>Regex Search</h3>
 https://github.com/wojtek108/learnig_python/blob/master/regex%20search.py
+
+<h3>Selective Copy</h3>
+https://github.com/wojtek108/learnig_python/blob/master/selectiv_copy.py
+
+<h3>Selective Copy 2</h3>
+https://github.com/wojtek108/learnig_python/blob/master/selective_copy_2.py
+
+<h3>Deleting Unneeded Files</h3>
+https://github.com/wojtek108/learnig_python/blob/master/deleting_unneeded_files.py
+
+
