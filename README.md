@@ -51,4 +51,5 @@ https://github.com/wojtek108/learnig_python/blob/master/selective_copy_2.py
 <h3>Deleting Unneeded Files</h3>
 https://github.com/wojtek108/learnig_python/blob/master/deleting_unneeded_files.py
 
-
+<h3>Filling in the Gaps</h3>
+https://github.com/wojtek108/learnig_python/blob/master/filling_in_the_gaps.py
